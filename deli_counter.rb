@@ -4,7 +4,7 @@ katz_deli = []
 def line(katz_deli)
   output = "The line is currently"
   if katz_deli.length == 0
-    output = output + " empty."
+    output = output << " empty."
   else
     output = output + ":"
     for i in (0..katz_deli.length-1)
