@@ -14,4 +14,4 @@ def line(katz_deli)
 end
 
 output = "string"
-puts output + " testing"
+puts output << " testing"
