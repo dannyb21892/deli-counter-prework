@@ -11,10 +11,11 @@ def line(katz_deli)
       output = output << " #{i+1}. #{katz_deli[i]}"
     end
   end
-  output
+  puts output
 end
 
 def take_a_number(line, name)
   line << name
-  "Welcome, #{name}. You are number #{line.length} in line."
+  puts "Welcome, #{name}. You are number #{line.length} in line."
+  line
 end
