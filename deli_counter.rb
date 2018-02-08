@@ -12,6 +12,3 @@ def line(katz_deli)
     end
   end
 end
-
-output = "string"
-puts output << " testing"
