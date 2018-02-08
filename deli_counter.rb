@@ -8,7 +8,7 @@ def line(katz_deli)
   else
     output = output + ":"
     for i in (0..katz_deli.length-1) do
-      output = output << " #{i+1}. #{katz_deli{i}"
+      output = output << " #{i+1}. #{katz_deli[i]}"
     end
   end
 end
